@@ -1,0 +1,41 @@
+* {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    margin-top:4em;
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+}
+
+nav {
+    display:flex;
+    padding: 2em;
+}
+
+.nav_button {
+    padding:2em;
+    font-size:26px;
+}
+
+body {
+    background-image: url("/images/shutterstock_482212045.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome {
+    display: flex;
+}
+
+.gif {
+    padding: 4em;
+    height: 100px;
+    width: 200px;
+
+}
