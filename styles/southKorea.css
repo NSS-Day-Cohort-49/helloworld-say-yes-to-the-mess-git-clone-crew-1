@@ -54,20 +54,30 @@ body {
 
 .lists {
     display: flex;
+    justify-content: space-evenly;
     padding: 5em;
+    margin: 40px 0px;
 }
+
+.lists__info {
+    padding:1em;
+    margin: 1em;
+    flex-basis: 30%;
+}
+
+/* Cities */
 
 .cities {
     border: 10px dotted red;
-    border-bottom-right-radius: 80px;
-    border-top-right-radius: 75px;
+    border-bottom-right-radius: 180px;
+    border-top-right-radius: 180px;
 }
 
 .cities img {
     width: 100px;
     height: 100px;
-    margin-left: 4em;
-    border-top-left-radius: 40px;
+    margin-left: 6em;
+    border-top-left-radius: 60px;
     border-bottom-right-radius: 40px;
     border: 6px dotted rgb(219, 64, 142);
 }
@@ -83,12 +93,85 @@ body {
 
 .city_info li {
     font-size: 16px;
+    margin-left: 3em;
 }
 
 .city_info button {
     color: rgb(241, 218, 8);
     border: 2px dotted rgb(243, 160, 6);
 } 
+
+/* Landmarks */
+
+.landmarks {
+    border: 10px dotted red;
+    border-bottom-right-radius: 110px;
+    border-top-right-radius: 180px;
+}
+
+.landmarks img {
+    width: 170px;
+    height: 170px;
+    margin-left: 7em;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 6px dotted rgb(219, 64, 142);
+}
+
+.landmark_header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.landmark_info {
+    list-style: none;
+}
+
+.landmark_info li {
+    font-size: 16px;
+}
+
+.landmark_info button {
+    color: rgb(241, 218, 8);
+    border: 2px dotted rgb(243, 160, 6);
+} 
+
+/* Citizens */
+
+.citizens {
+    border: 10px dotted red;
+    border-bottom-right-radius: 140px;
+    border-top-right-radius: 160px;
+}
+
+.citizens img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10em;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 6px dotted rgb(219, 64, 142);
+}
+
+.citizen_header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.citizen_info {
+    list-style: none;
+}
+
+.citizen_info li {
+    font-size: 16px;
+}
+
+.citizen_info button {
+    color: rgb(241, 218, 8);
+    border: 2px dotted rgb(243, 160, 6);
+} 
+
+/* Audio */
 
 audio {
     border: 8px dotted rgb(248, 1, 248);
