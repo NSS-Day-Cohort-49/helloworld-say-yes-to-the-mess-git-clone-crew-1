@@ -24,7 +24,10 @@
 .welcome_country {
     flex: 1;
     padding: 1em;
-    font-size: 25px;
+}
+
+.country_name {
+    font-size: 35px;
 }
 
 .banner_thanks {
@@ -56,6 +59,8 @@ body {
 
 .cities {
     border: 10px dotted red;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 75px;
 }
 
 .cities img {
