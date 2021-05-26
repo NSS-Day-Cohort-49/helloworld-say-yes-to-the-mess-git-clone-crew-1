@@ -1,0 +1,91 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Header */
+
+.heading {
+    display: flex;
+    padding: 1em;
+    border: 15px dotted rgb(155, 252, 10);
+}
+
+.banner {
+    flex: 1;
+    padding: 1em;
+}
+
+.welcome_gif {
+    width: 480px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.welcome_country {
+    flex: 1;
+    padding: 1em;
+    font-size: 25px;
+}
+
+.banner_thanks {
+    flex: 1;
+}
+
+/* BODY  */
+
+body {
+/* The image used ,will need to save photos to images folder */
+    background-image: url("https://previews.123rf.com/images/orpheus26/orpheus261409/orpheus26140900022/31593670-jeju-do-beach-island-south-korea.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Main Component */
+
+.lists {
+    display: flex;
+    padding: 5em;
+}
+
+.cities {
+    border: 10px dotted red;
+}
+
+.cities img {
+    width: 100px;
+    height: 100px;
+    margin-left: 4em;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 6px dotted rgb(219, 64, 142);
+}
+
+.city_header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.city_info {
+    list-style: none;
+}
+
+.city_info li {
+    font-size: 16px;
+}
+
+.city_info button {
+    color: rgb(241, 218, 8);
+    border: 2px dotted rgb(243, 160, 6);
+} 
+
+audio {
+    border: 8px dotted rgb(248, 1, 248);
+    margin-bottom: 10px;
+}
