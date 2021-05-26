@@ -1,0 +1,172 @@
+*{
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+body {
+  background-image: url("/images/nzbeach.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  border: 8px dotted yellow;
+}
+
+.welcome {
+    padding-left: 60em;
+}
+
+
+
+.logo img {
+  margin-top:2em;
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  
+}
+
+.top {
+  display: flex;
+  align-content: center;
+}
+
+.countryName {
+  color: brown;
+
+}
+
+nav {
+  display:flex;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.nav_button {
+  padding:2em;
+  font-size:16px;
+  flex-wrap: wrap;
+}
+
+
+.lists {
+  display: flex;
+  padding: 5em;
+}
+
+.lists__info {
+  padding: 1em;
+  margin: 2px 2px;
+  flex-grow: 1;
+  overflow: auto;
+}
+/* copy lines 62 through 88 for citizen css*/
+.citizen {
+  border: 10px double greenyellow;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 125px;
+}
+
+.citizen_header {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(235, 11, 223);
+
+}
+
+.citizen_info {
+  list-style: none;
+}
+
+.citizen_info li {
+  font-size: 16px;
+  color: orange;
+}
+
+.citizen img {
+ width: 200px;
+ height: 200px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto
+}
+
+.cities {
+  border: 10px dotted rgb(255, 0, 43);
+  border-bottom-right-radius: 150px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 100px;
+}
+
+.cities img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.city_header {
+  font-size: 20px;
+  text-align: center;
+}
+
+.city_info {
+  list-style: none;
+}
+
+.city_info li {
+  font-size: 16px;
+  color: rgb(247, 244, 244);
+  font-weight: bold;
+}
+
+.city_info button {
+  color: rgb(241, 218, 8);
+  border: 2px dotted rgb(243, 160, 6);
+} 
+
+.landmarks {
+  border: 10px ridge #0f0e0e;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 100px;
+}
+
+.landmarks_header {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(24, 20, 24);
+
+}
+
+.landmarks_info {
+  list-style: none;
+}
+
+.landmarks_info li {
+  font-size: 16px;
+  color: rgb(17, 3, 97);
+  font-weight: bolder;
+}
+
+.landmarks img {
+ width: 200px;
+ height: 200px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto
+}
+
+.kiwi img {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  flex-wrap: flex;
+  display: flex;
+}

@@ -1,0 +1,62 @@
+* {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    margin-top:4em;
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+}
+
+body {
+    background-image: url("/images/stockholm.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.gif {
+    padding: 2em;
+    height: 150px;
+    width: 250px;
+}
+
+.lists__info {
+    border: dotted red;
+    background-color: green;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    height: 150px;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 1.5em;
+    border-radius: 50%;
+}
+
+.welcome {
+    /* border: dotted yellow; */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: min-content;
+    margin-left: 20em;
+}
+
+.welcome__text {
+    color: black;
+    padding-right: 2em;
+
+}
+
+.header {
+    display: flex;
+}
+
