@@ -23,15 +23,6 @@ header {
     border-radius: 20%;
 }
 
-nav {
-    display:flex;
-    padding: 2em;
-}
-
-.nav_button {
-    padding:2em;
-    font-size:26px;
-}
 .about {
     font-size: 35px;
     text-align:center;
