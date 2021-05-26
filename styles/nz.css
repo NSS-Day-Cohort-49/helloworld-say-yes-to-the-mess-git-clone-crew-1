@@ -15,6 +15,10 @@ header {
   border: 8px dotted yellow;
 }
 
+.welcome {
+    padding-left: 60em;
+}
+
 
 
 .logo img {

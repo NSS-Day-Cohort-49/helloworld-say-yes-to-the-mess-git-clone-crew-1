@@ -94,3 +94,10 @@ audio {
     border: 8px dotted rgb(248, 1, 248);
     margin-bottom: 10px;
 }
+
+.welcome__text {
+    display: flex;
+    flex-direction: columnx;
+
+}
+
