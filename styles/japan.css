@@ -2,17 +2,20 @@
     display: flex;
     justify-content: space-evenly;
 }
-.landmarks {
+.lists__info {
     width: 11em;
     height: 11em;
-    background: #f2f542;
     border-radius: 7em;
     padding:1em;
-    border:1em dotted red;
+    border:1em dotted greenyellow;
+    margin: 1em;
+    font-size: 18px
+    
 
 }
 .lists__info {
     flex-basis: 30%;
+    background-image: url('/images/geocitiesbackground.gif');
     
 }
 h3 {
@@ -24,7 +27,7 @@ body {
 }
 body {
     /* The image used ,will need to save photos to images folder */
-      background-image: url("/images/japanbackground.png");
+      background-image: url("/images/japanbackground2.jpeg");
     
       /* Set a specific height */
       min-height: 500px;
