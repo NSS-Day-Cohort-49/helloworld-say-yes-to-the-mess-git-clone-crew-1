@@ -14,9 +14,10 @@ header {
 }
 
 body {
-    background-image: url("/images/shutterstock_482212045.jpeg");
+    background-image: url("/images/stockholm.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 
@@ -36,20 +37,21 @@ body {
     margin-left: 10em;
     margin-right: 10em;
     padding: 1.5em;
+    border-radius: 50%;
 }
 
 .welcome {
-    border: dotted yellow;
-    background-color: blue;
+    /* border: dotted yellow; */
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     font-size: 35px;
     width: min-content;
-    margin-left: 17em;
+    margin-left: 12em;
 }
 
 .welcome__text {
-    color: hotpink;
+    color: black;
     padding-right: 2em;
 
 }
