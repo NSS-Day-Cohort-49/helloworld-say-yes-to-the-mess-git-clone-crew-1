@@ -32,6 +32,7 @@ header {
 
 .countryName {
   color: brown;
+
 }
 
 nav {
@@ -61,6 +62,8 @@ nav {
 /* copy lines 62 through 88 for citizen css*/
 .citizen {
   border: 10px double greenyellow;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 125px;
 }
 
 .citizen_header {
@@ -68,6 +71,7 @@ nav {
   text-align: center;
   font-weight: bold;
   color: rgb(235, 11, 223);
+
 }
 
 .citizen_info {
@@ -89,17 +93,18 @@ nav {
 
 .cities {
   border: 10px dotted rgb(255, 0, 43);
-  border-bottom-right-radius: 80px;
-  border-top-right-radius: 75px;
+  border-bottom-right-radius: 150px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 100px;
 }
 
 .cities img {
-  width: 100px;
-  height: 100px;
-  margin-left: 4em;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  border: 6px dotted rgb(219, 64, 142);
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .city_header {
@@ -113,9 +118,43 @@ nav {
 
 .city_info li {
   font-size: 16px;
+  color: rgb(247, 244, 244);
+  font-weight: bold;
 }
 
 .city_info button {
   color: rgb(241, 218, 8);
   border: 2px dotted rgb(243, 160, 6);
 } 
+
+.landmarks {
+  border: 10px ridge #0f0e0e;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 100px;
+}
+
+.landmarks_header {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(24, 20, 24);
+
+}
+
+.landmarks_info {
+  list-style: none;
+}
+
+.landmarks_info li {
+  font-size: 16px;
+  color: rgb(17, 3, 97);
+  font-weight: bolder;
+}
+
+.landmarks img {
+ width: 200px;
+ height: 200px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto
+}
