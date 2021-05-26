@@ -12,15 +12,10 @@ body {
 
 header {
   display: flex;
+  border: 8px dotted yellow;
 }
 
-.header {
-  background-image: url("/images/nzheader1.jpg");
-  flex-wrap: wrap;
-  border: 8px dotted yellow;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .logo img {
   margin-top:2em;
@@ -53,20 +48,73 @@ nav {
 
 .lists {
   display: flex;
-  flex: wrap;
-  justify-content: space-around;
-  padding: 2em;
-  margin: 1em 0;
-  border: 4px dashed blueviolet;
-  opacity: .75;
-  overflow: auto;
+  padding: 5em;
 }
 
 .lists__info {
-  border: 2px solid blue;
-  padding: 4em;
+  padding: 1em;
   margin: 2px 2px;
-  background: indigo;
   flex-grow: 1;
   overflow: auto;
 }
+
+.citizen {
+  border: 10px dashed greenyellow;
+}
+
+.citizen_header {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+.citizen_info {
+  list-style: none;
+}
+
+.citizen_info li {
+  font-size: 16px;
+  color: ;
+}
+
+.citizen img {
+ width: 200px;
+ height: 200px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto
+}
+
+.cities {
+  border: 10px dotted red;
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 75px;
+}
+
+.cities img {
+  width: 100px;
+  height: 100px;
+  margin-left: 4em;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 6px dotted rgb(219, 64, 142);
+}
+
+.city_header {
+  font-size: 20px;
+  text-align: center;
+}
+
+.city_info {
+  list-style: none;
+}
+
+.city_info li {
+  font-size: 16px;
+}
+
+.city_info button {
+  color: rgb(241, 218, 8);
+  border: 2px dotted rgb(243, 160, 6);
+} 
