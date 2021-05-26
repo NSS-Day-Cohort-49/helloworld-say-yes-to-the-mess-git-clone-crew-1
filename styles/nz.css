@@ -46,6 +46,7 @@ nav {
   flex-wrap: wrap;
 }
 
+
 .lists {
   display: flex;
   padding: 5em;
@@ -57,16 +58,16 @@ nav {
   flex-grow: 1;
   overflow: auto;
 }
-
+/* copy lines 62 through 88 for citizen css*/
 .citizen {
-  border: 10px dashed greenyellow;
+  border: 10px double greenyellow;
 }
 
 .citizen_header {
   font-size: 24px;
   text-align: center;
   font-weight: bold;
-  color: red;
+  color: rgb(235, 11, 223);
 }
 
 .citizen_info {
@@ -75,7 +76,7 @@ nav {
 
 .citizen_info li {
   font-size: 16px;
-  color: ;
+  color: orange;
 }
 
 .citizen img {
@@ -87,7 +88,7 @@ nav {
 }
 
 .cities {
-  border: 10px dotted red;
+  border: 10px dotted rgb(255, 0, 43);
   border-bottom-right-radius: 80px;
   border-top-right-radius: 75px;
 }
