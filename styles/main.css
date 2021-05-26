@@ -17,10 +17,10 @@ header {
     display: flex;
 }
 .logo img {
-    margin-top:4em;
-    height: 400px;
-    width: 400px;
-    border-radius: 20%;
+  margin-top:2em;
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
 }
 
 nav {
@@ -31,7 +31,9 @@ nav {
 .nav_button {
     padding:2em;
     font-size:26px;
+
 }
+
 .about {
     font-size: 35px;
     text-align:center;
