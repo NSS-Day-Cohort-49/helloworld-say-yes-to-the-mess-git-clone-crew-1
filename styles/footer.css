@@ -1,0 +1,51 @@
+/* Footer */
+
+footer {
+    border: 10px dotted purple;
+    display: flex;
+     /* The image used ,will need to save photos to images folder */
+    background-image: url("/images/footerBgd.jpg");
+    
+     /* Set a specific height */
+    min-height: 500px;
+   
+     /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.80;
+}
+
+.runningText {
+    position: relative;
+    width: 100%;
+    margin: 0;  
+    padding: 5px 0px;
+    font-size: 30px;
+    text-align: center;
+    transform:translateX(50%);
+    animation: horizontally 10s linear infinite alternate;
+    }
+  @keyframes horizontally {
+   0%   { 
+   transform: translateX(50%); 		
+    }
+   100% { 
+   transform: translateX(-50%); 
+   }
+}
+
+.footGif {
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 60px;
+    border: 4px dotted blue;
+}
+
+.copyright {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 60px;
+    border: 4px solid greenyellow;
+}
